@@ -3,17 +3,23 @@
     text-decoration: none;
     list-style-type: none;
 }
+
 body {
     margin: 0px;
 }
+
+
+
 #navbar {
     background-color: rgb(41, 40, 40);
     position: sticky;
-    top: 0px;  
+    top: 0px;
 }
+
 #navbar ul {
     margin: 0px;
 }
+
 #navbar ul li {
     display: inline-block;
     font-size: 28px;
@@ -24,18 +30,19 @@ body {
     padding-left: 8px;
 }
 
-#navbar ul li a{
-    margin: 0px; 
-    padding:10px; 
-    color:white;
+#navbar ul li a {
+    margin: 0px;
+    padding: 10px;
+    color: white;
     font-weight: 400;
 }
 
 #navbar ul li a:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    
+
 }
+
 #content {
     background-color: rgba(8, 26, 34, 0.883);
     display: flex;
@@ -43,60 +50,72 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
+
 #content-item {
     background-color: rgba(255, 255, 255, 0.034);
-    width: 70vw;
+
     padding: 15px;
     margin-bottom: 0px;
     color: aliceblue;
 
 }
+
 #connect,
 li,
 #connect li a {
     display: flex;
     padding: 5px;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     justify-content: center;
 }
+
 #connect li {
     border-radius: 5px;
     box-shadow: 5px 3px rgb(27, 27, 27);
     margin-left: 10px;
-    
-}#connect li:hover{
-    margin-right:-5px;
+
 }
-#connect #facebook{
-    background-color: rgb(0, 98, 255); 
-    width:50px;
+
+#connect li:hover {
+    margin-right: -5px;
+}
+
+#connect #facebook {
+    background-color: rgb(0, 98, 255);
+    width: 50px;
     color: rgb(232, 232, 255);
-}#connect #insta{
-    border-radius:15px;
-    background-image:linear-gradient(purple,orange);
 }
-#connect #twitter,#connect #twitter a {
-    background-color: rgba(255, 255, 255, 0.883); 
-    color:rgb(0, 140, 255);
+
+#connect #insta {
+    border-radius: 15px;
+    background-image: linear-gradient(purple, orange);
+}
+
+#connect #twitter, #connect #twitter a {
+    background-color: rgba(255, 255, 255, 0.883);
+    color: rgb(0, 140, 255);
 }
 
 input {
     width: 60%;
     font-size: 18px;
 }
+
 #info {
     font-size: 20px;
-  
+
 }
+
 #info #profile-photo {
-    
+
     width: 200px;
-    height:200px;
-    
+    height: 200px;
+
     border: ridge rgb(255, 255, 255);
-  float: right;
+    float: right;
 }
+
 #cv-content {
     border: 2px solid black;
     color: rgb(0, 0, 0);
@@ -104,7 +123,9 @@ input {
     padding-left: 5px;
     font-size: 18px;
     font-weight: 400;
+
 }
+
 #contact-content {
     border: 2px solid rgb(145, 143, 143);
     padding-left: 5px;
@@ -114,9 +135,11 @@ input {
     font-size: 18px;
     font-weight: 500;
 }
+
 #contact-content p {
     font-size: 22px;
 }
+
 footer,
 footer a {
     text-align: center;
@@ -127,9 +150,11 @@ footer a {
     font-weight: 400;
     text-decoration: underline;
 }
+
 p {
     padding-left: 10px;
 }
+
 button {
     font-size: 18px;
     background-color: rgb(243, 138, 39);
@@ -138,10 +163,13 @@ button {
     color: white;
     padding: 5px;
 }
+
 hr {
-    border: 2px  rgb(255, 255, 255);
-    border-style:dotted;
-}textarea{
-    resize:none;
-    width:60%;
+    border: 2px rgb(255, 255, 255);
+    border-style: dotted;
+}
+
+textarea {
+    resize: none;
+    width: 60%;
 }
