@@ -8,8 +8,6 @@ body {
     margin: 0px;
 }
 
-
-
 #navbar {
     background-color: rgb(41, 40, 40);
     position: sticky;
@@ -53,7 +51,7 @@ body {
 
 #content-item {
     background-color: rgba(255, 255, 255, 0.034);
-    /*  width: 70vw;*/
+    /*width: 70vw;*/
     padding: 15px;
     margin-bottom: 0px;
     color: aliceblue;
@@ -123,7 +121,6 @@ input {
     padding-left: 5px;
     font-size: 18px;
     font-weight: 400;
-
 }
 
 #contact-content {
