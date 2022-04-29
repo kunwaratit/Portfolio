@@ -9,7 +9,7 @@ body {
 }
 
 #navbar {
-    background-color: rgb(41, 40, 40);
+    background-color: #25343c;
     position: sticky;
     top: 0px;
 }
@@ -38,6 +38,9 @@ body {
 #navbar ul li a:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
 
 }
 
