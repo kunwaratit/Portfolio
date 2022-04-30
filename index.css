@@ -173,3 +173,15 @@ textarea {
     resize: none;
     width: 60%;
 }
+
+@media (width:720px) {
+    #content-item {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #navbar {
+        display: inline-block;
+
+    }
+}
