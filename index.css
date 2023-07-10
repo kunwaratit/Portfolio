@@ -178,6 +178,24 @@ textarea {
     #content-item {
         width: 100%;
         padding: 20px;
+
+    }
+
+    #navbar {
+        display: inline-block;
+
+    }
+}
+
+@media (width:420px) {
+    * {
+        font-size: 14px;
+    }
+
+    #content-item {
+        width: 100%;
+        padding: 20px;
+
     }
 
     #navbar {
