@@ -9,7 +9,8 @@
 
 body {
     margin: 0px;
-    background-color: #e1d9d9a6;
+    background-color: #939393a6;
+
 }
 
 h4 {
@@ -25,23 +26,33 @@ h3, h4 {
     font-weight: 200;
 }
 
+#navbar img {
+    padding: 6px;
+    height: 3.4vw;
+    margin-left: 80px;
+}
+
+
 #navbar {
     background: linear-gradient(167deg, #919191, #000000);
     position: sticky;
     top: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #navbar ul {
     margin: 0px;
+    margin-right: 90px;
 }
 
 #navbar ul li {
     display: inline-block;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 400;
-    margin: 5px 0px;
+    margin: 0px 0px;
     margin-left: -15px;
-    padding: 5px;
+    padding: 10px;
     padding-left: 8px;
 }
 
@@ -71,4 +82,10 @@ footer a {
     font-size: 20px;
     font-weight: 400;
     /* text-decoration: underline; */
+}
+
+.resumeButton {
+    background-color: orange;
+    width: 200px;
+    /* margin-bottom: 15%; */
 }

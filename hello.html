@@ -12,28 +12,50 @@
 <body>
     <div id="container">
         <div id="navbar">
-            <ul>
-                <a href="#"><img src="Ak.png" alt="" height="30vh" width="30vh"
-                        style="border-radius:30px;padding-top: 10px;"></a>
-                <style>
-                    ul a img:active {
-                        height: 80vh;
-                        width: 80vh;
-                    }
-                </style>
 
+            <a href="#">
+                <ul class="logo">
+                    <img src="Ak.png" alt="" style="border-radius:30px;">
+                    <h5>AtitKunwar</h5>
+                </ul>
+            </a>
+            <style>
+                .logo {
+                    display: flex;
+                }
+
+                .logo h5 {
+                    color: #ffffff;
+                    font-size: 38px;
+                }
+
+                #navbar a {
+                    text-decoration: none;
+
+                }
+
+                a img:active {
+                    background-color: #002147;
+
+                }
+            </style>
+            <ul class="nav">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#info">Info</a></li>
-                <li><a href="#cv">CV</a></li>
+
+                <li><a href="#cv">Portfolio</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#info-content">About</a></li>
+
+                <li><a href="#">Blog</a></li>
                 <li><a href="#contact-content">Contact</a></li>
-                <li><a href="#info-content">About Me</a></li>
+
                 <li> <a href="gallery.html">Gallery</a> </li>
             </ul>
         </div>
         <style>
             .homeContent {
                 width: 100%;
-                height: 90%;
+                height: 95%;
                 background: linear-gradient(77deg, #00000061, #000000);
                 color: yellow;
                 display: flex;
@@ -48,7 +70,7 @@
             }
 
             .leftHomeContent .vacant {
-                height: 60%;
+                height: 50%;
                 margin: 5%;
                 padding: 5%;
             }
@@ -76,7 +98,7 @@
 
             h1 {
                 text-align: center;
-                color: #dcdaff;
+                color: #ffffff;
             }
 
             .contact-form {
@@ -185,13 +207,14 @@
                 /* margin: 0px 65px; */
                 margin: 0% 8%;
                 background: #efeeeec9;
-
+                margin-bottom: -100px;
                 padding: 1% 5% 0% 5%;
             }
 
             .contactPage {
                 font-family: Arial, sans-serif;
-                background: linear-gradient(241deg, #1c4ff6, #ff0000);
+                /* background: linear-gradient(241deg, #1c4ff6, #ff0000); */
+                background: linear-gradient(241deg, #003cffb5, #000000d9);
                 margin: 10%;
             }
         </style>
@@ -202,7 +225,10 @@
                 <div class="vacant"></div>
                 <div class="value">
                     <h1>Web Developer</h1>
-                    <h4>hello i am aaaa <span style="color: rgb(196, 196, 251);">Developer</span> aaa</h4>
+                    <h4>hello i am aaaa <span style="color: rgb(196, 196, 251);">Developer</span> Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Fuga, ab minus quos voluptatum eum, itaque sed natus fugit
+                        architecto eaque veniam laborum sit rem possimus.</h4>
+                    <button class="resumeButton">View Resume</button>
                 </div>
             </div>
             <div class="rightHomeContent">
@@ -215,6 +241,7 @@
 
         </div>
         <div class="bodyContainer">
+
             <div class="cpm">
                 <div class="contactPage">
                     <div class="contactMsg">
