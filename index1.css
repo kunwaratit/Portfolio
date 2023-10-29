@@ -97,9 +97,9 @@ footer a {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 690px) {
     #navbar ul li, #navbar ul {
-        font-size: 14px;
+        font-size: 12px;
         padding: 0px;
         margin: 0px;
         /* color: gold; */
