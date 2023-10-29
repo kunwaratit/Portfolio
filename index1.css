@@ -89,3 +89,19 @@ footer a {
     width: 200px;
     /* margin-bottom: 15%; */
 }
+
+@media (max-width: 1100px) {
+    #navbar {
+        display: block;
+        /* color: gold; */
+    }
+}
+
+@media (max-width: 500px) {
+    #navbar ul li, #navbar ul {
+        font-size: 14px;
+        padding: 0px;
+        margin: 0px;
+        /* color: gold; */
+    }
+}
