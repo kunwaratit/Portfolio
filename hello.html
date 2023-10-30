@@ -22,11 +22,17 @@
             <style>
                 .logo {
                     display: flex;
+                    justify-content: center;
                 }
 
                 .logo h5 {
                     color: #ffffff;
                     font-size: 38px;
+                }
+
+                .nav {
+                    display: flex;
+                    justify-content: center;
                 }
 
                 #navbar a {
@@ -55,7 +61,7 @@
         <style>
             .homeContent {
                 width: 100%;
-                height: 95%;
+                /* height: 95%; */
                 background: linear-gradient(77deg, #00000061, #000000);
                 color: yellow;
                 display: flex;
@@ -241,8 +247,187 @@
 
         </div>
         <div class="bodyContainer">
+            <div class="spm"><!-- skillPageManagement -->
+                <div class="skillPage">
+                    <div class="skills">
+                        <h1>Skills</h2>
+                            <div class="skillShow">
+                                <ul class="skillul">
+                                    <style>
+                                        .skillback {
+                                            background-color: #faf375bf;
+                                            width: 100%;
+                                            /* border: 5px solid; */
+                                            border: 0.1px solid #00ffffad;
+                                            border-radius: 25px;
+                                            /* color: #00ffff; */
 
-            <div class="cpm">
+                                        }
+
+                                        .skill {
+                                            /* padding: 3px; */
+                                            padding-left: 15px;
+                                            background: linear-gradient(241deg, #003cffb5, #000000d9);
+                                            border-radius: 25px;
+                                            border-left: 2.5px solid aqua;
+                                        }
+
+
+
+                                        .php {
+                                            width: 100%;
+                                        }
+
+                                        .py {
+                                            width: 75%;
+
+                                        }
+
+                                        .javascript {
+                                            width: 70%;
+                                        }
+                                    </style>
+                                    <li>
+                                        <div class="skillback">
+                                            <div class="skill py">Python
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skillback">
+                                            <div class="skill php" width="10%"> PHP </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skillback">
+                                            <div class="skill Mysql" width="90%"> Mysql </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skillback">
+                                            <div class="skill Javascript" width="75%"> Javascript 70%</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skillback">
+                                            <div class="skill ReactJs" width="90%"> React Js</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skillback">
+                                            <div class="skill C++" width="90%"> C++</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skillback">
+                                            <div class="skill Java" width="90%"> Java</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skillback">
+                                            <div class="skill CSS" width="90%"> CSS</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skillback">
+                                            <div class="skill HTML" width="90%"> HTML</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ppm"><!-- portfolioPageManagement -->
+                <div class="portfolioPage">
+                    <h1>Projects</h1>
+                    <div class="portfolioProjects">
+
+                        <div class="project project_1">
+                            <div class="projectImg"></div>
+                            <h2>Blood</h2>
+                            <div class="projDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                                ratione eos ex vel ut molestias!</div>
+                        </div>
+                        <div class="project project_2">
+                            <div class="projectImg"></div>
+                            <h2>Steganographic Secure File Storage System</h2>
+                            <div class="projDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                                ratione eos ex vel ut molestias!</div>
+                        </div>
+                        <div class="project project_3">
+                            <div class="projectImg"></div>
+                            <h2>Blood</h2>
+                            <div class="projDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                                ratione eos ex vel ut molestias!</div>
+                        </div>
+                        <div class="project project_3">
+                            <div class="projectImg"></div>
+                            <h2>Blood</h2>
+                            <div class="projDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                                ratione eos ex vel ut molestias!</div>
+                        </div>
+                        <div class="projectproject_4">
+                            <div class="projectImg"></div>
+                            <h2>Blood</h2>
+                            <div class="projDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                                ratione eos ex vel ut molestias!</div>
+                        </div>
+                        <div class="project project_3">
+                            <div class="projectImg"></div>
+                            <h2>Blood</h2>
+                            <div class="projDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                                ratione eos ex vel ut molestias!</div>
+                        </div>
+                        <div class="project project_3">
+                            <div class="projectImg"></div>
+                            <h2>Blood</h2>
+                            <div class="projDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                                ratione eos ex vel ut molestias!</div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <style>
+                /* Portfolio */
+                /* .portfolioPage {
+                    border: 2px solid red; 
+                     overflow-x: auto;
+                } */
+
+                .portfolioProjects {
+                    display: flex;
+
+                    flex-wrap: wrap;
+                    width: 100%;
+                }
+
+                .project h2 {
+                    font-size: 18px;
+                    text-align: center;
+                    text-decoration: underline;
+                }
+
+                .project {
+                    margin: 5px;
+                    width: 45%;
+                    flex-basis: 30%;
+                }
+
+                .projectImg {
+                    border: 1px solid red;
+                    height: 200px;
+                    width: 100%;
+
+                }
+
+                /* portfolio */
+            </style>
+            <div class="cpm"><!-- contactpageManagement -->
+
                 <div class="contactPage">
                     <div class="contactMsg">
                         <h3>Contact for more info</h3>
@@ -514,6 +699,7 @@
 
                 .footer ul {
                     justify-content: center;
+
                 }
 
                 input[type="text"],
