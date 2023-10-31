@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index1.css">
+    <link rel="icon" href="Icon.png" />
     <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js"
         integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous">
         </script>
@@ -15,7 +16,7 @@
 
             <a href="#">
                 <ul class="logo">
-                    <img src="Ak.png" alt="" style="border-radius:30px;">
+                    <img src="Icon.png" alt="" style="border-radius:30px;background: #ffffff;">
                     <h5>AtitKunwar</h5>
                 </ul>
             </a>
@@ -23,6 +24,11 @@
                 .logo {
                     display: flex;
                     justify-content: center;
+
+                }
+
+                #navbar img {
+                    padding: 1px;
                 }
 
                 .logo h5 {
@@ -52,8 +58,9 @@
                 <li><a href="#">Skills</a></li>
                 <li><a href="#info-content">About</a></li>
 
-                <li><a href="#">Blog</a></li>
-                <li><a href="#contact-content">Contact</a></li>
+                <li><a href="blog.html
+                    ">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
 
                 <li> <a href="gallery.html">Gallery</a> </li>
             </ul>
@@ -84,6 +91,25 @@
             .leftHomeContent .value {
                 margin: 2% 4%;
                 padding: 1%;
+                text-align: left !important;
+                letter-spacing: 1.5;
+                color: lightskyblue;
+                width: 70%;
+            }
+
+            .leftHomeContent .value h1 {
+                letter-spacing: 2px;
+                color: lightskyblue;
+
+            }
+
+            .leftHomeContent .value h4 {
+                font-size: 18px;
+            }
+
+            .leftHomeContent .value h5 {
+                text-decoration: underline;
+
             }
 
             .rightHomeContent {
@@ -103,7 +129,7 @@
             }
 
             h1 {
-                text-align: center;
+                /* text-align: center; */
                 color: #ffffff;
             }
 
@@ -230,10 +256,15 @@
             <div class="leftHomeContent ">
                 <div class="vacant"></div>
                 <div class="value">
-                    <h1>Web Developer</h1>
-                    <h4>hello i am aaaa <span style="color: rgb(196, 196, 251);">Developer</span> Lorem ipsum dolor sit
-                        amet consectetur adipisicing elit. Fuga, ab minus quos voluptatum eum, itaque sed natus fugit
-                        architecto eaque veniam laborum sit rem possimus.</h4>
+                    <h5>Full-Stack Developer</h5>
+
+                    <h1>Hi, I am <span style="color: #ffae0f;     font-size: 45px;    letter-spacing: 3px;">Atit
+                            Kunwar
+                        </span></h1>
+                    <h4>
+                        from Kathmandu
+                        Nepal.I am a Full-Stack Developer having the experiencing on different projects
+                    </h4>
                     <button class="resumeButton">View Resume</button>
                 </div>
             </div>
@@ -246,10 +277,55 @@
                         <a href="">Linkedin</a>
                         <a href="">Facebook</a>
                         <a href="">Discord</a>
+                        <h3 style="margin: 0px; color:rgb(138, 138, 138); ">
+                            Connect with me :</h3>
+                        <!--connect-->
+                        <div class="as">
+                            <ul id="connect" style="margin: 0px;">
 
+                                <!--facebook-->
 
+                                <li id="facebook">
+                                    <a href="#" title="Facebook:Atit kunwar" target="blank">
+                                        <i class="fab fa-facebook-f"></i>Fac</a>
+                                </li>
+                                <!--instagram-->
+                                <li id="insta">
+                                    <a href="https://instagram.com/kunwar_atit" target="blank">
+                                        <i class="fab fa-instagram"></i></a>
+                                </li>
+                                <!--github-->
+                                <li>
+                                    <a href="https://github.com/kunwaratit" target="blank" title="Github:kunwaratit">
+                                        <i class="fab fa-github"></i></a>
+                                </li>
+                                <!--twitter-->
+                                <li id="twitter">
+                                    <a href="https://twitter.com/Atitkunwar2" target="blank"
+                                        title="twitter:atitkunwar2">
+                                        <i class="fab fa-twitter"></i></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <style>
+                    #connect {
+                        list-style-type: none;
+                        display: block;
+
+                    }
+
+                    #connect li {
+                        color: white;
+                    }
+
+                    .as {
+                        position: fixed;
+                        left: 10px;
+                        background: linear-gradient(236deg, #061691, white, #ff0000);
+                    }
+                </style>
                 <div class="ProjectInfo">
                     <div class="completedProj">
                         <h3><span>10+</span></h3>
@@ -273,117 +349,188 @@
         <div class="bodyContainer">
             <div class="spm"><!-- skillPageManagement -->
                 <div class="skillPage">
-                    <div class="skills">
-                        <h1>My Skills</h2>
-                            <div class="skillShow">
-                                <ul class="skillul">
-                                    <style>
-                                        .skillback {
-                                            background-color: #faf375bf;
-                                            width: 100%;
-                                            /* border: 5px solid; */
-                                            border: 0.1px solid #00ffffad;
-                                            border-radius: 25px;
-                                            /* color: #00ffff; */
+                    <!-- <div class="skills"> -->
+                    <h1 style="color: rebeccapurple;">My Skills</h1>
+                    <style>
+                        .SEE {
+                            display: flex;
+                        }
 
-                                        }
+                        .skills {
+                            display: flex;
+                        }
+                    </style>
+                    <div class="skillShow">
+                        <div class="AboutMe">
 
-                                        .skill {
-                                            /* padding: 3px; */
-                                            padding-left: 15px;
-                                            background: linear-gradient(241deg, #003cffb5, #000000d9);
-                                            border-radius: 25px;
-                                            border-left: 2.5px solid aqua;
-                                        }
+                            <div class="aboutimg">
+
+                                <style>
+                                    .aboutimg {
+                                        height: 250px;
+                                        border: 1px solid white;
 
 
+                                    }
 
-                                        .php {
-                                            width: 100%;
-                                        }
-
-                                        .py {
-                                            width: 5%;
-
-                                        }
-
-                                        .javascript {
-                                            width: 70%;
-                                        }
-                                    </style>
-                                    <li>
-                                        <div class="skillback">
-                                            <div class="skill py">Python
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="skillback">
-                                            <div class="skill php" width="10%"> PHP </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="skillback">
-                                            <div class="skill Mysql" width="90%"> Mysql </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="skillback">
-                                            <div class="skill Javascript" width="75%"> Javascript 70%</div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="skillback">
-                                            <div class="skill ReactJs" width="90%"> React Js</div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="skillback">
-                                            <div class="skill C++" width="90%"> C++</div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="skillback">
-                                            <div class="skill Java" width="90%"> Java</div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="skillback">
-                                            <div class="skill CSS" width="90%"> CSS</div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="skillback">
-                                            <div class="skill HTML" width="90%"> HTML</div>
-                                        </div>
-                                    </li>
-                                </ul>
+                                    .about h5 {
+                                        letter-spacing: 1;
+                                        word-spacing: 1;
+                                    }
+                                </style>
                             </div>
+                            <div class="about">
+                                <h2>About Me</h2>
+                                <h5><span style="padding-left: 30px;"> I </span>am an recent IT graduate from NCIT. I
+                                    have
+                                    successfully done around
+                                    of
+                                    10+ web projects. Being an full stack developer, i'm able to analyze the frontend as
+                                    well
+                                    as the backend portion of an web development.</h5>
+                            </div>
+                        </div>
+                        <div class="AboutMeright">
+                            <ul class="SEE">
+                                <li>skill</li>
+                                <li>Experience</li>
+                                <li>Education</li>
+                            </ul>
+                            <ul class="skillul">
+                                <style>
+                                    .skillul li {
+                                        font-size: 12px;
+                                    }
+
+                                    .skillback {
+                                        /* background-color: #faf375bf; */
+                                        background: linear-gradient(0deg, #fff760c9, #fff760c9, #ebead69c, #fff760c9, #faf375bf);
+                                        width: 100%;
+                                        /* border: 5px solid; */
+                                        border: 0.1px solid #00ffffad;
+                                        border-radius: 5px;
+                                        /* color: #00ffff; */
+
+                                        height: 8px;
+                                    }
+
+                                    .skill {
+                                        /* padding: 3px; */
+                                        padding-left: 15px;
+                                        background: linear-gradient(0deg, #003cffb5, #003cffb5, #9cbeff, #003cffb5, #003cffb5);
+
+                                        border-radius: 5px;
+                                        border-left: 0.2px solid aqua;
+                                        height: 8px;
+                                    }
+
+
+
+                                    .php {
+                                        width: 100%;
+                                    }
+
+                                    .py {
+                                        width: 5%;
+
+                                    }
+
+                                    .javascript {
+                                        width: 70%;
+                                    }
+                                </style>
+                                <li>Python
+                                    <div class="skillback">
+                                        <div class="skill py">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>PHP
+                                    <div class="skillback">
+                                        <div class="skill php" width="10%"></div>
+                                    </div>
+                                </li>
+                                <li>Mysql
+                                    <div class="skillback">
+                                        <div class="skill Mysql" width="90%"></div>
+                                    </div>
+                                </li>
+                                <li>Javascript
+                                    <div class="skillback">
+                                        <div class="skill Javascript" width="75%"> </div>
+                                    </div>
+                                </li>
+                                <li>React Js
+                                    <div class="skillback">
+                                        <div class="skill ReactJs" width="90%"></div>
+                                    </div>
+                                </li>
+                                <li>C++
+                                    <div class="skillback">
+                                        <div class="skill C++" width="90%"> </div>
+                                    </div>
+                                </li>
+                                <li> Java
+                                    <div class="skillback">
+                                        <div class="skill Java" width="90%"></div>
+                                    </div>
+                                </li>
+                                <li> CSS
+                                    <div class="skillback">
+                                        <div class="skill CSS" width="90%"></div>
+                                    </div>
+                                </li>
+                                <li> HTML
+                                    <div class="skillback">
+                                        <div class="skill HTML" width="90%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+
+                    <!-- </div> -->
+
                 </div>
             </div>
             <div class="ppm"><!-- portfolioPageManagement -->
                 <div class="portfolioPage">
                     <h1>Projects</h1>
                     <div class="portfolioProjects">
+                        <style>
+                            .project a {
+                                color: rgb(0, 0, 0);
+                            }
 
+                            .project a:hover {
+                                color: darkcyan;
+                            }
+
+                            .projectImg img {
+                                height: 200px;
+                                width: 100%;
+                            }
+                        </style>
                         <div class="project project_1">
-                            <div class="projectImg"></div>
-                            <h2>Blood</h2>
+                            <div class="projectImg"><img src="Cryptography.png" alt=""></div>
+                            <h2><a href="https://github.com/kunwaratit">Blood Management System</a></h2>
                             <div class="projDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                                ratione eos ex vel ut molestias!</div>
+                                ratione eos ex vel ut molestias! <a href="" style="color: rgb(22, 22, 255);">see
+                                    more...</a></div>
                         </div>
                         <div class="project project_2">
-                            <div class="projectImg"></div>
-                            <h2>Steganographic Secure File Storage System</h2>
+                            <div class="projectImg"><img src="Cryptography.png" alt=""></div>
+                            <h2><a href="https://github.com/kunwaratit">Steganographic Secure File Storage System</a>
+                            </h2>
                             <div class="projDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                                ratione eos ex vel ut molestias!</div>
+                                ratione eos ex vel ut molestias! <a href="" style="color: rgb(22, 22, 255);">see
+                                    more...</a></div>
                         </div>
                         <div class="project project_3">
                             <div class="projectImg"></div>
-                            <h2>Blood</h2>
+                            <h2><a href="https://github.com/kunwaratit">Portfolio</a></h2>
                             <div class="projDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                                ratione eos ex vel ut molestias!</div>
+                                ratione eos ex vel ut molestias!<a></a></div>
                         </div>
                         <div class="project project_3">
                             <div class="projectImg"></div>
@@ -411,11 +558,20 @@
                         </div>
 
 
+
+                    </div>
+                    <div class="seeMore">
+                        <a href="">See All Projects</a>
                     </div>
 
                 </div>
             </div>
             <style>
+                .seeMore {
+                    width: 154px;
+                    margin-left: 48%;
+                }
+
                 /* Portfolio */
                 /* .portfolioPage {
                     border: 2px solid red; 
@@ -437,7 +593,7 @@
 
                 .project {
                     margin: 5px;
-                    width: 45%;
+                    /* width: 45%; */
                     flex-basis: 30%;
                 }
 
@@ -452,7 +608,7 @@
             </style>
             <div class="cpm"><!-- contactpageManagement -->
 
-                <div class="contactPage">
+                <div class="contactPage" id="contact">
                     <div class="contactMsg">
                         <h3>Contact for more info</h3>
                         <h4>To Contact with us </h4>
@@ -485,176 +641,7 @@
         </style>
 
 
-        <!-- 
 
-        <div id="content">
-            <div id="content-item">
-
-                <div id="info">
-                    <h2 style="margin: 0px;">
-                        Atit Kunwar
-                    </h2>
-                    <hr>
-                    <p style="margin-bottom: 0px;"></p>
-                    <img src="prp.JPG" alt="Profile Picture" srcset="" id="profile-photo"><br>
-                    Name : Atit Kunwar <br>
-                    Address : Naikap,KAthmandu <br>
-                    Phone <i class="fas fa-phone-volume"> </i>:<a href="tel:+9779842803777" title="Call Me"
-                        style="color: aliceblue;text-decoration:underline;">9842803777</a> <br>
-                    Mail <i class="fas fa-envelope"> </i>:<a href="mailto:atit.191508@ncit.edu.np" title="Mail"
-                        style="color: aliceblue;text-decoration:underline;">
-                        atit.191508@ncit.edu.np</a></p>
-                    <h3 style="margin: 0px; color:rgb(138, 138, 138); ">
-                        Connect with me :</h3>
-                    --><!--connect-->
-        <!--  <ul id="connect" style="margin: 0px;">
-                  -->
-        <!--facebook-->
-        <!--
-                        <li id="facebook">
-                            <a href="#" title="Facebook:Atit kunwar" target="blank">
-                                <i class="fab fa-facebook-f"></i></a>
-                        </li>
-                    --> <!--instagram-->
-        <!--   <li id="insta">
-                            <a href="https://instagram.com/kunwar_atit" target="blank">
-                                <i class="fab fa-instagram"></i></a>
-                        </li>
-                    --> <!--github-->
-        <!--  <li>
-                            <a href="https://github.com/kunwaratit" target="blank" title="Github:kunwaratit">
-                                <i class="fab fa-github"></i></a>
-                            </li>-->
-        <!--twitter-->
-        <!--  <li id="twitter">
-                            <a href="https://twitter.com/Atitkunwar2" target="blank" title="twitter:atitkunwar2">
-                                <i class="fab fa-twitter"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <hr>
-            --> <!--information-->
-        <!--  <div id="info-content">
-                    <p style="font-size: 28px;"><strong style="font-size: 30px;">
-                            Hi !
-                        </strong>Myself Atit Kunwar.I am a front-end and back-end webdeveloper.
-                </div>
-                <hr>
-
-                <h2 id="cv">Cirruculam Vitae</h2><br>
-                <div id="cv-content">
-                    <h3>Personal Details</h3>
-                    <p>Name : Atit Kunwar <br>
-                        Permanent Address: Tamghas-01,Gulmi <br>
-                        Contact Address : 9842803777<br>
-                        Date of Birth : 2002/3/10<br>
-                        Sex : Male<br>
-                        Fathers Name : Min Bdr. Kunwar<br>
-                        Mothers Name : Tika Kunwar<br>
-                        Nationality : Nepali<br>
-                        Marital Status : Unmarried<br>
-                        Religion : Hindu<br>
-                        Language Known : English, Nepali, Hindi<br>
-                    </p>
-
-                    <p>
-                    <table border="1px" cellspacing="0" valign="center">
-
-                        <h3> Academic Qualification
-                        </h3>
-
-                        <tr>
-                            <td> S. N</td>
-                            <td> Degree/Level</td>
-                            <td> University</td>
-                            <td> Specialization</td>
-                            <td> Year</td>
-                        </tr>
-                        <tr>
-                            <td>1.</td>
-                            <td> BE IT</td>
-                            <td> Pokhara University </td>
-                            <td>Computer </td>
-                            <td>2019</td>
-                        </tr>
-                        <tr>
-                            <td>2.</td>
-                            <td> +2</td>
-                            <td> NEB </td>
-                            <td>Science</td>
-                            <td> 2015</td>
-                        </tr>
-                        <tr>
-                            <td>3.</td>
-                            <td> SEE</td>
-                            <td> NEB </td>
-                            <td>-</td>
-                            <td> 2013</td>
-                        </tr>
-                        <tr>
-                            <td colspan="5">
-                                <h3>Professional Experience</h3>
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <th> S.N</th>
-                            <th> Post</th>
-                            <th> Office</th>
-                            <th> Address</th>
-                            <th> Duration</th>
-                        </tr>
-                        <tr>
-                            <td> 1.</td>
-                            <td> Assistant Engineer</td>
-                            <td> Esewa</td>
-                            <td> Balkumari </td>
-                            <td>2 years</td>
-                        </tr>
-                        <tr>
-                            <td> 2.</td>
-                            <td> System analyst</td>
-                            <td> Nepal clearing HouseLtd.(NCHL)</td>
-                            <td> Tinkune</td>
-                            <td> 1year</td>
-                        </tr>
-                    </table>
-
-
-                </div>
-                <hr>
-            --> <!--contact info-->
-        <!-- <div id=contact-content>
-                    <h1 style="text-align: center; color:white;">Contact Us</h1>
-                    <p>If any Queries you can Message...<br>
-
-                    <form action="">
-
-                        Name : <br>
-                        <input type="text" placeholder="Your Name" title="Full Name" required>
-                        <br>E-mail : <br>
-                        <input type="email" placeholder="abcde24@game.com" title="E-mail address" required>
-                        <br> Message : <br>
-                        <textarea name="aa"></textarea><br>
-                        <button type="submit">Send</button>
-                        </p>
-
-                        <p style="color: beige;">
-                            You can also conatct Here: <br>
-                            location : Naikap,Kthmandu <br>
-                            call : <a href="tel:+977 9842803777"> 984280377</a><br>
-                            Mail : <a href="mailto:atitkunwar2015@gmail.com"> atitkunwar2015@gmail.com</a>
-                        </p>
-                    </form>
-                    <div class="whitespace">
-
-                    </div>
-                </div>
-
-            </div>
-            --> <!--photo-->
-        <!--
-        </div> -->
         <hr>
         <footer>
             <div class="footer">
@@ -666,7 +653,7 @@
                         <li>FAQs |</li>
                     </ul>
                 </div>
-                <div class="footerRight">copyright&copy;<a href="Portfolio.html">Atit Kunwar</a></div>
+                <div class="footerRight">copyright&copy;<a href="Portfolio.html">atitKunwar</a></div>
 
             </div>
         </footer>
@@ -737,6 +724,38 @@
                     border-radius: 10px;
                     font-size: 18px;
 
+                }
+
+                .homeContent {
+                    display: block;
+                }
+
+                .ProjectInfo {
+                    display: flex;
+
+                }
+
+                .leftHomeContent .value {
+                    width: 100%;
+                }
+
+                .rightHomeContent {
+                    width: 100%;
+                }
+
+                .completedProj,
+                .satisfiedClient {
+                    padding: 10px;
+                }
+
+                .skillShow {
+                    display: block;
+                    /* width: 100%; */
+                }
+
+                .AboutMe,
+                .AboutMeright {
+                    width: 100%;
                 }
             }
         </style>
