@@ -55,7 +55,7 @@
                 <li><a href="#home">Home</a></li>
 
                 <li><a href="#cv">Portfolio</a></li>
-                <li><a href="#">Skills</a></li>
+                <li><a href="#my-skill">Skills</a></li>
                 <li><a href="#info-content">About</a></li>
 
                 <li><a href="blog.html
@@ -128,7 +128,7 @@
 
             .contact-container {
                 width: 50%;
-                margin: 8vh auto;
+                margin: 8vh 5vh 8vh 0vh;
                 padding: 20px 40px;
                 background-color: #ffffff4b;
                 border-radius: 4px;
@@ -167,6 +167,7 @@
             input[type="text"]:focus,
             input[type="email"]:focus,
             textarea:focus {
+                /* border: none; */
                 /* background-color: red; */
                 border-width: 2px !important;
                 border-color: #d679ff !important;
@@ -234,7 +235,7 @@
 
                 width: 50%;
                 /* background-color: red; */
-                margin: 8vh auto;
+                margin: 8vh 0 8vh 5vh;
                 padding: 25px 55px;
                 background-color: #ffffff16;
                 border-radius: 2%;
@@ -255,7 +256,7 @@
                 font-family: Arial, sans-serif;
                 /* background: linear-gradient(241deg, #1c4ff6, #ff0000); */
                 background: linear-gradient(241deg, #003cffb5, #000000d9);
-                margin: 10%;
+                margin: 10% 0%;
             }
         </style>
 
@@ -330,7 +331,8 @@
 
                     .as {
                         position: fixed;
-                        left: 10px;
+                        top: 25%;
+                        left: 0px;
                         background: linear-gradient(236deg, #061691, white, #ff0000);
                     }
                 </style>
@@ -353,13 +355,21 @@
                 letter-spacing: 2px;
 
             }
-        </style>
+        </style><br>
         <div class="bodyContainer">
-            <div class="spm"><!-- skillPageManagement -->
+            <div class="spm" id="my-skill"><!-- skillPageManagement -->
                 <div class="skillPage">
                     <!-- <div class="skills"> -->
                     <h1 style="color: rebeccapurple;">My Skills</h1>
                     <style>
+                        * {
+                            scroll-behavior: smooth;
+                        }
+
+                        .skillPage {
+                            padding-top: 40px;
+                        }
+
                         .SEE {
                             display: flex;
                         }
@@ -656,9 +666,9 @@
 
                 <div class="footerLeft">
                     <ul>
-                        <li>Contact Us |</li>
-                        <li>Privacy Notice |</li>
-                        <li>FAQs |</li>
+                        <li><a href="#contact">Contact Us</a> |</li>
+                        <li><a href="">Privacy Notice</a> |</li>
+                        <li><a href="">FAQs</a> |</li>
                     </ul>
                 </div>
                 <div class="footerRight">copyright&copy;<a href="Portfolio.html">atitKunwar</a></div>
